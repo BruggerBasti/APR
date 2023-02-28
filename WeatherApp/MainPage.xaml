@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="*, *" RowDefinitions="*, *">
+
+                <Label Text="{Binding sonnig}" WidthRequest="150" />
+
+                <Image Grid.Row="1" />
+
+                <Label Text="" Grid.Column="1" />
+
+            </Grid>
+
+            <Grid ColumnDefinitions="*, *" RowDefinitions="*, *">
+
+                <Label Text="" />
+
+                <Image Grid.Row="1" />
+
+                <Label Text="" Grid.Column="1" />
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

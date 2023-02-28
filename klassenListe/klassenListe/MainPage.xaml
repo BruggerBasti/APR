@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:klassenListe.ViewModels"
+             x:DataType="viewmodels:MainViewModel"
+             x:Class="Klassenliste.MainPage">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto, *, Auto, Auto">
+
+            <!-- row 0-->
+            <Label Text="Wählen Sie einen zufälligen Schüler aus" TextColor="{DynamicResource Primary}" FontSize="32"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- row 1 -->
+            <Label Grid.Row="1" Text="-" />
+
+            <!-- row 2-->
+            <Button Text="Auswahl" Grid.Row="2" />
+
+            <!-- row 3 -->
+            <Label Grid.Row="3" Text="{Binding Student}" />
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

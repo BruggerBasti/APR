@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<kalender>
+    <termin bezeichnung="APR Schulübung" beginn="27.01.2023 11:30" ende="27.01.2023 12:20" ort="Schule/3BHK">
+        <notiz>
+            Stoff: Schnittstellen
+        </notiz>
+    </termin>
+    <termin bezeichnung="UNCO Prüfung" beginn="06.02.2023 12:20" ende="06.02.2023 13:10" ort="Schule/3BHK">
+        <notiz>
+            Stoff: Buchungssätze
+        </notiz>
+    </termin>
+    <termin bezeichnung="Mathe Prüfung" beginn="02.02.2023 07:40" ende="02.02.2023 08:30" ort="Schule/3BHK"/>
+</kalender>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:produktListe2.ViewModels"
+             xmlns:models="clr-namespace:produktListe2.Models"
+             x:DataType="viewmodels:MainViewModel"
+             x:Class="produktListe2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <CollectionView ItemsSource="{Binding Produkte}" >
+                <CollectionView.EmptyView>
+                    <Label Text="Keine Produkte vorhanden!" />
+                </CollectionView.EmptyView>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Produkt">
+
+                        <Grid Margin="10" ColumnDefinitions="250, 2*">
+
+                            <Image WidthRequest="150" Source="{Binding Bild}" />
+
+                            <StackLayout Grid.Column="1">
+                                <Label Text="{Binding Titel}" FontAttributes="Bold" TextColor="{DynamicResource Primary}" />
+                                <Label Text="{Binding Beschreibung}" TextColor="{DynamicResource Gray300}" />
+                            </StackLayout>
+
+                        </Grid>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

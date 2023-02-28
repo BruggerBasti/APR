@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wordGame.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Label Text="WordMix" TextColor="Blue" HorizontalTextAlignment="Center" FontSize="35"/>
+
+            <Label Text="{Binding Word}" FontSize="30" HorizontalTextAlignment="Center" />
+
+            <Label Text="{Binding Versuche}" HorizontalTextAlignment="Center" FontSize="21" />
+
+            <Entry Text="{Binding Input}" Margin="20, 0, 20, 0"/>
+            
+            <Label Text="{Binding Feedback}" HorizontalTextAlignment="Center" FontSize="20" />
+
+            <Button Text="Validate" Command="{Binding ValidateCommand}" BackgroundColor="Blue" TextColor="White" Margin="20, 20, 20, 0" />
+
+            <Button Text="Neues Wort (+1 Versuch)" Command="{Binding NeuGenerierenCommand}" BackgroundColor="Blue" TextColor="White" Margin="20, 20, 20, 0" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

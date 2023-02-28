@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<verwaltung>
+    <person vorname="Jakob" nachname="Aigner"> 
+        <verleih>
+            <schluessel name="X-1">
+                <raeume>
+                    <raum name="H-100" />
+                    <raum name="H-200" />
+                    <raum name="H-300" />
+                </raeume>
+            </schluessel>
+            <schluessel name="X-2">
+                <raeume>
+                    <raum name="H-400" />
+                </raeume>
+            </schluessel>
+        </verleih>
+        <notiz>
+            Jakob ist ein freundlicher Mann.
+        </notiz>
+    </person>
+    <person vorname="Max" nachname="Muster" />
+    <person vorname="Daniela" nachname="Huber">
+        <notiz>
+            Anfrage für einen Schlüssel wurde gestellt.
+        </notiz>
+    </person>
+</verwaltung>

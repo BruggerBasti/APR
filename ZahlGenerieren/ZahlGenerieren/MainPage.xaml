@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZahlGenerieren.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Zufallszahl" FontSize="32" HorizontalTextAlignment="Center" />
+              
+            <Button Text="Neue Zahl" Command="{Binding NeuGenerierenCommand}" FontSize="14" Margin="200, 0, 200, 20"/>
+
+            <Label Text="{Binding Versuche}" HorizontalTextAlignment="Center"/>
+
+            <Entry Text="{Binding Zahl}" Margin="200, 0, 200, 20" FontSize="16"/>
+
+            <Button Text="Check" Command="{Binding CheckCommand}" Margin="200, 0, 200, 20" FontSize="14"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
