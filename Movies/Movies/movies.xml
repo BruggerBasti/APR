@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<movies>
+    <movie name="Star Wars: Das Erwachen der Macht" typ="Streaming" dauer="2" preis="9,99" />
+</movies>
