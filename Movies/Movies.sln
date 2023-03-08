@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 25.0.1705.0
+VisualStudioVersion = 25.0.1706.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies", "Movies\Movies.csproj", "{0B202134-FDF0-4FB3-A4AE-D14D0AEBAD02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesCli", "MoviesCli\MoviesCli.csproj", "{4800EAA2-1F97-4308-81A0-AC84BE057292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Lib", "Movies.Lib\Movies.Lib.csproj", "{B6D4BC9F-0A39-4C56-AAE9-A0FC9C810860}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B202134-FDF0-4FB3-A4AE-D14D0AEBAD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B202134-FDF0-4FB3-A4AE-D14D0AEBAD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B202134-FDF0-4FB3-A4AE-D14D0AEBAD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B202134-FDF0-4FB3-A4AE-D14D0AEBAD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4800EAA2-1F97-4308-81A0-AC84BE057292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4800EAA2-1F97-4308-81A0-AC84BE057292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4800EAA2-1F97-4308-81A0-AC84BE057292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4800EAA2-1F97-4308-81A0-AC84BE057292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D4BC9F-0A39-4C56-AAE9-A0FC9C810860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D4BC9F-0A39-4C56-AAE9-A0FC9C810860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D4BC9F-0A39-4C56-AAE9-A0FC9C810860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D4BC9F-0A39-4C56-AAE9-A0FC9C810860}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {42EBB270-B06A-4F4A-9B7C-C58F623CC48B}
+		SolutionGuid = {FE949476-30EA-4798-AD41-02545F4C4BC4}
 	EndGlobalSection
 EndGlobal
